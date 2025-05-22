@@ -34,7 +34,7 @@ body {
   position: relative;
   margin: 0;
   height: 100vh;
-  background-image: url('/image/pexels-pixabay-358636.jpg');
+  background-image: url('image/pexels-pixabay-358636.jpg');
   background-size: 100% 100vh;
   background-repeat: no-repeat;
   background-position: center;
