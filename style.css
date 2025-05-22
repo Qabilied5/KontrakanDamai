@@ -5,19 +5,19 @@
 
 @font-face {
     font-family: 'Raleway Thin';
-    src: url(/font/Raleway-Thin.ttf);
+    src: url(font/Raleway-Thin.ttf);
 }
 @font-face {
     font-family: 'Raleway Regular';
-    src: url(/font/Raleway-Regular.ttf);
+    src: url(font/Raleway-Regular.ttf);
 }
 @font-face {
     font-family: 'Raleway Medium';
-    src: url(/font/Raleway-Medium.ttf);
+    src: url(font/Raleway-Medium.ttf);
 }
 @font-face {
     font-family: 'Raleway Heavy';
-    src: url(/font/Raleway-Bold.ttf);
+    src: url(font/Raleway-Bold.ttf);
 }
 
 h1, h2, h3, h4, h5{
