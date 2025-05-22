@@ -1,0 +1,110 @@
+:root {
+  --primary-color: #222222;
+  --font-main: 'Raleway', sans-serif;
+}
+
+@font-face {
+    font-family: 'Raleway Thin';
+    src: url(/font/Raleway-Thin.ttf);
+}
+@font-face {
+    font-family: 'Raleway Regular';
+    src: url(/font/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: 'Raleway Medium';
+    src: url(/font/Raleway-Medium.ttf);
+}
+@font-face {
+    font-family: 'Raleway Heavy';
+    src: url(/font/Raleway-Bold.ttf);
+}
+
+h1, h2, h3, h4, h5{
+    margin: 0;
+    font-family: 'Raleway Regular';
+    -webkit-text-fill-color: white;
+}
+
+button{
+    font-family: 'Raleway Heavy';
+}
+
+body {
+  position: relative;
+  margin: 0;
+  height: 100vh;
+  background-image: url('/image/pexels-pixabay-358636.jpg');
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 0;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* hitam transparan 40% */
+  z-index: 1;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+h2{
+    font-size: 1.25rem;
+}
+
+h3{
+    font-size: 1.125rem;
+}
+
+h4{
+    font-size: 1rem;
+}
+
+h5{
+    font-size: 0.875rem;
+}
+
+/* --------------- */
+.screen{
+    padding: 2rem;
+    position: relative;
+    z-index: 2;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    h1{
+        text-align: center;
+        letter-spacing: 0.3rem;
+        font-size: 2rem;
+        font-family: 'Raleway Heavy';
+    }
+    
+    p{
+        -webkit-text-fill-color: rgb(208, 208, 208);
+        font-family: 'Raleway Regular';
+        text-align: center;
+    }
+
+    button{
+        letter-spacing: 0.1rem;
+        -webkit-text-fill-color: white;
+        background-color: rgb(29, 55, 110);
+        border: none;
+        height: 2.3rem;
+        width: 12rem;
+        border-radius: 0.3rem;
+    }
+}
+
+.screen button:active {
+    transform: scale(1.1);
+}

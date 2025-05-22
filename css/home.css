@@ -1,0 +1,55 @@
+:root {
+  --primary-color: #222222;
+  --font-main: 'Raleway', sans-serif;
+}
+
+@font-face {
+    font-family: 'Raleway Thin';
+    src: url(/font/Raleway-Thin.ttf);
+}
+@font-face {
+    font-family: 'Raleway Regular';
+    src: url(/font/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: 'Raleway Medium';
+    src: url(/font/Raleway-Medium.ttf);
+}
+@font-face {
+    font-family: 'Raleway Heavy';
+    src: url(/font/Raleway-Bold.ttf);
+}
+
+body{
+    background-color: #222222;
+}
+
+h1, h2, h3, h4, h5{
+    margin: 0;
+    font-family: 'Raleway Regular';
+    -webkit-text-fill-color: rgb(255, 255, 255);
+}
+
+button{
+    font-family: 'Raleway Heavy';
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+h2{
+    font-size: 1.25rem;
+}
+
+h3{
+    font-size: 1.125rem;
+}
+
+h4{
+    font-size: 1rem;
+}
+
+h5{
+    font-size: 0.875rem;
+}
