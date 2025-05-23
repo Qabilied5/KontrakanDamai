@@ -1,15 +1,15 @@
 const kontrakanData = [
     {
     title: "KONTRAKAN PETAKAN",
-    image: "image/pexels-pixabay-358636.jpg"
+    image: "../image/pexels-pixabay-358636.jpg"
     },
     {
     title: "KONTRAKAN RUMAH",
-    image: "image/pexels-pixabay-358636.jpg"
+    image: "../image/pexels-pixabay-358636.jpg"
     },
     {
     title: "PARKIRAN PETAKAN",
-    image: "image/pexels-pixabay-358636.jpg"
+    image: "../image/pexels-pixabay-358636.jpg"
     }
 ];
 
