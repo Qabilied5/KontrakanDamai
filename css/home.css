@@ -21,7 +21,9 @@
 }
 
 body{
-    background-color: #222222;
+    background-color: #EAEAEA;
+    padding: 0;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5{
@@ -52,4 +54,55 @@ h4{
 
 h5{
     font-size: 0.875rem;
+}
+
+body{
+    margin: 0;
+    padding: 2rem;
+}
+
+.page-title{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ 
+    h2{
+        background-color: #303030;
+        letter-spacing: 0.4rem;
+        padding: 0.5em 1.5em;
+    }
+}
+
+#type-card-container{
+    margin-top: 4rem;
+}
+
+.type-card{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.sub-title{
+    h5{
+        text-align: center;
+        display: inline-block;
+        background-color: #3E3E3E;
+        letter-spacing: 0.2rem;
+        padding: 0.5em 1.5em;
+    }
+}
+
+.sub-image{
+    border: 0.3rem solid white;
+    border-color: white;
+    width: 100%;
+    height: 6rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    .sub-image-control{
+        width: 100%;
+    }
 }
