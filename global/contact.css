@@ -13,7 +13,7 @@
 
 .media{
     display: flex;
-    gap: 0.5rem;
+    gap: 3vh;
 }
 
 .contact{
@@ -32,8 +32,11 @@
         justify-content: center;
         border-radius: 6px; 
         height: 2rem;
-        width: 9rem;
+        width: 14vh;
         background-color: #205940;
+        a{
+            text-decoration: none;
+        }
     }
     .tiktok{
         display: flex;
@@ -42,7 +45,10 @@
         justify-content: center;
         border-radius: 6px; 
         height: 2rem;
-        width: 9rem;
+        width: 14vh;
         background-color: #232323;
+        a{
+            text-decoration: none;
+        }
     }
 }
