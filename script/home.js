@@ -28,4 +28,7 @@ kontrakanData.forEach(typeData => {
                 <img class="sub-image-control" src="${typeData.image}" alt="${typeData.title}">
             </div>`;
     container.appendChild(card);
+
+    
+
 });
