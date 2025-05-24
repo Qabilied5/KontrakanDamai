@@ -19,7 +19,7 @@ kontrakanData.forEach(typeData => {
 
     const card = document.createElement("div");
     card.className = "type-card";
-    card.innerHTML = 
+    card.innerHTML =
             `<div  class="sub-title">
                 <h5>${typeData.title}</h5>
             </div>
@@ -27,8 +27,18 @@ kontrakanData.forEach(typeData => {
             <div class="sub-image">
                 <img class="sub-image-control" src="${typeData.image}" alt="${typeData.title}">
             </div>`;
+            
+            const imgBtn = card.querySelector(".sub-image");
+            
+        imgBtn.addEventListener("click", () => {
+        const dataTemp = {
+        title: typeData.title,
+        image: typeData.image
+        };
+
+        sessionStorage.setItem("selectedData", JSON.stringify(dataTemp));
+
+        window.location.href = "detailPage.html"
+    });
     container.appendChild(card);
-
-    
-
 });
