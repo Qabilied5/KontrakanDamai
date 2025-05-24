@@ -38,7 +38,7 @@ kontrakanData.forEach(typeData => {
 
         sessionStorage.setItem("selectedData", JSON.stringify(dataTemp));
 
-        window.location.href = "detailPage.html"
+        window.location.href = "pages/detailPage.html"
     });
     container.appendChild(card);
 });
