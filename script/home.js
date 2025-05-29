@@ -1,11 +1,11 @@
 const kontrakanData = [
     {
-    title: "KONTRAKAN PETAKAN",
+    title: "PETAKAN BULANAN 4 PINTU",
     type: "petakan",
     image: "../image/PETAKAN-VIEW.jpg"
   },
   {
-    title: "KONTRAKAN RUMAH",
+    title: "SEWA RUMAH TAHUNAN",
     type: "rumah",
     image: "../image/rumah-satuan/rumah-satuan-front-view.jpg"
   },

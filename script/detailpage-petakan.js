@@ -5,12 +5,25 @@ document.getElementById("detail-image").src = storedData.image;
 
 const imagesRuangan = {
     "5A" : [
-        "../image/no-images-images.png"
+        "../image/PETAKAN-VIEW.jpg",
+        "../image/5a/WhatsApp Image 2025-05-29 at 22.40.54 (2).jpeg",
+        "../image/5a/WhatsApp Image 2025-05-29 at 23.07.41.jpeg",
+        "../image/5a/WhatsApp Image 2025-05-29 at 22.51.30.jpeg",
+        "../image/5a/WhatsApp Image 2025-05-29 at 22.40.52.jpeg",
+        "../image/5a/WhatsApp Image 2025-05-29 at 22.40.55.jpeg",
+        "../image/WhatsApp Image 2025-05-29 at 22.56.54.jpeg",
+        "../image/5a/WhatsApp Image 2025-05-29 at 23.04.36.jpeg",
+        "../image/5a/WhatsApp Image 2025-05-29 at 23.08.27.jpeg",
+        "../image/WhatsApp Image 2025-05-29 at 23.08.27.jpeg",
+        "../image/WhatsApp Image 2025-05-29 at 23.07.42.jpeg",
+        "../image/WhatsApp Image 2025-05-29 at 23.37.06.jpeg", 
+        "../image/WhatsApp Image 2025-05-29 at 23.40.38.jpeg",
+        "../image/WhatsApp Image 2025-05-29 at 23.42.47.jpeg"
     ],
     "5B" : [
         "../image/5b/FRONT VIEW.jpg",
         "../image/5b/VIEW DOOR FROM INSIDE.jpg",
-        "../image/roberto-nickson-FqHU6aeVwf8-unsplash.jpg"
+        "../image/5b/5B KONTRAKAN.jpeg"
     ],
     "5C" : [
         "../image/no-images-images.png"
@@ -36,14 +49,9 @@ buttons.forEach(button => {
       imgs.forEach((img, i) => {
         img.src = images[i] || "";
       });
-
-      if(room === "5A"){
-        document.getElementById("no-images-info").innerHTML = "Pemilik belum mengupload gambar"
-      }else if(room === "5B"){
-        document.getElementById("no-images-info").innerHTML = "FOTO RUANGAN " + room
-      }
     }else{
       document.getElementById("no-images-info").innerHTML = "Foto belum diupload pemilik"
     }
+    document.getElementById("no-images-info").innerHTML = "FOTO RUANGAN " + room
   });
 });
