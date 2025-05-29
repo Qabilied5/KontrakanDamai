@@ -7,7 +7,7 @@ const kontrakanData = [
   {
     title: "KONTRAKAN RUMAH",
     type: "rumah",
-    image: "../image/pexels-pixabay-358636.jpg"
+    image: "../image/rumah-satuan/rumah-satuan-front-view.jpg"
   },
   {
     title: "PARKIRAN PETAKAN",
