@@ -5,13 +5,27 @@
     text-align: center;
  
     h2{
-        border-radius: 4px;
-        background-color: #303030;
-        letter-spacing: 0.2rem;
-        padding: 0.5em 1.5em;
+       -webkit-text-fill-color: #303030;
+       font-family: 'Nexa Heavy';
     }
 }
 
+.detail-desc{
+    font-family: 'Nexa Heavy';
+    -webkit-text-fill-color: rgb(75, 75, 75);
+}
+
+.detail-description{
+    padding: 1rem 2rem;
+    background-color: white;
+    border: 1px solid #E1E1E1;
+    border-radius: 0.35rem;
+}
+
+.detail-field{
+    font-family: 'Nexa Thin';
+    -webkit-text-fill-color: rgb(104, 104, 104);
+}
 .sub-image{
     border: 0.3rem solid white;
     border-color: white;
@@ -37,13 +51,14 @@
     margin-top: 3vh;
 }
 
-.filter h3{
+.filter h5{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 2rem;
-    -webkit-text-fill-color: black;
+    -webkit-text-fill-color: rgb(41, 41, 41);
     background-color: white;
+    border: 1px solid #E1E1E1;
 }
 
 .filter-button{
@@ -54,7 +69,7 @@
         font-size: 17px;
         border-radius: 0.3rem;
         height: 2.5rem;
-        width: 4.5rem;
+        width: 5rem;
         -webkit-text-fill-color: white;
         background-color: #A2A2A2;
         border: none;
@@ -71,8 +86,9 @@
     gap: 2vh;
 }
 .gambar-detail-ruangan img{
-    border-radius: 0.8vh;
+    border-radius: 0.5vh;
     width: 100%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
 

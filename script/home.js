@@ -1,16 +1,16 @@
 const kontrakanData = [
     {
-    title: "PETAKAN BULANAN 4 PINTU",
+    title: "| PETAKAN BULANAN 4 PINTU",
     type: "petakan",
     image: "../image/PETAKAN-VIEW.jpg"
   },
   {
-    title: "SEWA RUMAH TAHUNAN",
+    title: "| SEWA RUMAH TAHUNAN",
     type: "rumah",
     image: "../image/rumah-satuan/rumah-satuan-front-view.jpg"
   },
   {
-    title: "PARKIRAN PETAKAN",
+    title: "| PARKIRAN PETAKAN",
     type: "parkiran",
     image: "../image/pexels-pixabay-358636.jpg"
   }
@@ -29,9 +29,10 @@ kontrakanData.forEach(typeData => {
     
             <div class="sub-image">
                 <img class="sub-image-control" src="${typeData.image}" alt="${typeData.title}">
-            </div>`;
+            </div>
+            <button id="detail-button">LIHAT ISI</button>`;
             
-        const imgBtn = card.querySelector(".sub-image");
+        const imgBtn = card.querySelector("#detail-button");
             
         imgBtn.addEventListener("click", () => {
         const dataTemp = {
