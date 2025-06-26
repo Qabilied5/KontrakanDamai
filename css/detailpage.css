@@ -1,23 +1,120 @@
 .page-title{
-    margin-top: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
- 
-    h2{
-       -webkit-text-fill-color: #303030;
-       font-family: 'Nexa Heavy';
+        margin-top: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+        h2{
+            -webkit-text-fill-color: #303030;
+            font-family: 'Nexa Heavy';
+        }
+    }
+    
+    .detail-desc{
+        font-family: 'Nexa Heavy';
+        -webkit-text-fill-color: rgb(75, 75, 75);
+    }
+    
+    .detail-description{
+        padding: 1rem 2rem;
+        background-color: white;
+    border: 1px solid #E1E1E1;
+    border-radius: 0.35rem;
+}
+
+.detail-field{
+    font-family: 'Nexa Thin';
+    -webkit-text-fill-color: rgb(104, 104, 104);
+}
+.sub-image{
+    border: 0.3rem solid white;
+    border-color: white;
+    width: 100%;
+    height: 10rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    .sub-image-control{
+        width: 100%;
     }
 }
 
-.detail-desc{
-    font-family: 'Nexa Heavy';
-    -webkit-text-fill-color: rgb(75, 75, 75);
+.stored-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
 }
 
-.detail-description{
-    padding: 1rem 2rem;
+.filter{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 3vh;
+}
+
+.filter h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    -webkit-text-fill-color: rgb(41, 41, 41);
     background-color: white;
+    border: 1px solid #E1E1E1;
+}
+
+.filter-button{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    button{
+        font-size: 17px;
+        border-radius: 0.3rem;
+        height: 2.5rem;
+        width: 5rem;
+        -webkit-text-fill-color: white;
+        background-color: #A2A2A2;
+        border: none;
+    }
+}
+
+.filter-button button.active{
+    background-color: #303030;
+}
+
+.gambar-detail-ruangan{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+.gambar-detail-ruangan img{
+    border-radius: 0.5vh;
+    width: 50vh;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 440px) {
+
+    .page-title{
+        margin-top: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+        h2{
+            -webkit-text-fill-color: #303030;
+            font-family: 'Nexa Heavy';
+        }
+    }
+    
+    .detail-desc{
+        font-family: 'Nexa Heavy';
+        -webkit-text-fill-color: rgb(75, 75, 75);
+    }
+    
+    .detail-description{
+        padding: 1rem 2rem;
+        background-color: white;
     border: 1px solid #E1E1E1;
     border-radius: 0.35rem;
 }
@@ -91,4 +188,4 @@
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
-
+}

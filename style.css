@@ -42,11 +42,11 @@ body {
 }
 
 body::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background-color: rgba(0, 0, 0, 0.4); /* hitam transparan 40% */
-  z-index: 1;
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* hitam transparan 40% */
+    z-index: 1;
 }
 
 h1{
@@ -93,7 +93,7 @@ h5{
         font-family: 'Raleway Regular';
         text-align: center;
     }
-
+    
     button{
         letter-spacing: 0.1rem;
         -webkit-text-fill-color: white;

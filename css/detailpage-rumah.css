@@ -43,11 +43,72 @@
 
 .gambar-rumah{
     display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.detail-img-control{
+    width: 30vh;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 440px) {  
+    .page-title{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ 
+    h2{
+        -webkit-text-fill-color: rgb(35, 35, 35);
+        font-family: 'Nexa Heavy';
+    }
+}
+
+.stored-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.rumah-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.rumah-container h5{
+    -webkit-text-fill-color: rgb(91, 91, 91);
+}
+
+.detail-description{
+    padding: 1rem 2rem;
+    background-color: white;
+    border: 1px solid #d2d2d2;
+    border-radius: 0.4rem;
+}
+
+.detail-desc{
+    font-family: 'Nexa Heavy';
+}
+
+.detail-field{
+    font-family: 'Nexa Thin';
+}
+
+.gambar-rumah{
+    display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
 .detail-img-control{
+    width: 35vh;
     border-radius: 0.4rem;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
 }

@@ -1,56 +1,120 @@
+.page-title {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+
+.page-title h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  -webkit-text-fill-color: #2C2C2C;
+  font-family: 'Nexa Heavy';
+}
+
+#type-card-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 25vh;
+}
+
+.type-card {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  gap: 0.7rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+}
+
+.type-card button {
+  border-radius: 0.35rem;
+  height: 3rem;
+  -webkit-text-fill-color: white;
+  background-color: #2C2C2C;
+}
+
+.sub-title h5 {
+  -webkit-text-fill-color: #2C2C2C;
+  font-family: 'Nexa Heavy';
+  margin-left: 0.8rem;
+}
+
+.sub-image {
+  width: 100%;
+  height: 35vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 0.4rem;
+}
+
+.sub-image-control {
+  width: 100%;
+}
 
 
-.page-title{
-    margin-top: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 1rem;
- 
-    h2{
+@media screen and (min-width: 441px) {
+    .page-title{
+        margin-top: 0.5rem;
+        display: flex;
+        text-align: center;
+        gap: 1rem;
+        
+        h2{
+            margin-top: 1rem;
+            font-size: 1.5rem;
+            -webkit-text-fill-color: #2C2C2C;
+            font-family: 'Nexa Heavy';
+        }
+    }
+    
+    #type-card-container{
+        gap: 2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
         margin-top: 1rem;
-        font-size: 1.5rem;
+        margin-bottom: 25vh;
+    }
+    
+    .type-card{
+        width: 40vh;
+        margin-top: 2rem;
+        padding: 1rem;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0.5rem;
+        gap: 0.7rem;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+    }
+    
+    .type-card button{
+        border-radius: 0.35rem;
+        height: 3rem;
+        -webkit-text-fill-color: white;
+        background-color: #2C2C2C;
+    }
+    
+    .sub-title h5{
         -webkit-text-fill-color: #2C2C2C;
         font-family: 'Nexa Heavy';
+        margin-left: 0.8rem;
     }
-}
-
-#type-card-container{
-    margin-top: 1rem;
-    margin-bottom: 25vh;
-}
-
-.type-card{
-    margin-top: 2rem;
-    padding: 1rem;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    border-radius: 0.5rem;
-    gap: 0.7rem;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
-}
-
-.type-card button{
-    border-radius: 0.35rem;
-    height: 3rem;
-    -webkit-text-fill-color: white;
-    background-color: #2C2C2C;
-}
-
-.sub-title h5{
-    -webkit-text-fill-color: #2C2C2C;
-    font-family: 'Nexa Heavy';
-    margin-left: 0.8rem;
-}
-
-.sub-image{
-    width: 100%;
-    height: 35vh;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 0.4rem;
+    
+    .sub-image{
+        width: 100%;
+        height: 35vh;
+        box-sizing: border-box;
+        overflow: hidden;
+        border-radius: 0.4rem;
     .sub-image-control{
         width: 100%;
+    }
     }
 }
