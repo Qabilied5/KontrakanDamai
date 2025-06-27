@@ -87,7 +87,15 @@
     align-items: center;
     justify-content: center;
 }
+
 .gambar-detail-ruangan img{
+    border-radius: 0.5vh;
+    width: 50vh;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.gambar-detail-ruangan video{
+    display: none;
     border-radius: 0.5vh;
     width: 50vh;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
@@ -112,9 +120,9 @@
         -webkit-text-fill-color: rgb(75, 75, 75);
     }
     
-    .detail-description{
-        padding: 1rem 2rem;
-        background-color: white;
+.detail-description{
+    padding: 1rem 2rem;
+    background-color: white;
     border: 1px solid #E1E1E1;
     border-radius: 0.35rem;
 }
@@ -183,6 +191,13 @@
     gap: 2vh;
 }
 .gambar-detail-ruangan img{
+    border-radius: 0.5vh;
+    width: 100%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.gambar-detail-ruangan video{
+    display: none;
     border-radius: 0.5vh;
     width: 100%;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
