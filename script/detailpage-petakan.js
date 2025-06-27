@@ -74,3 +74,7 @@ buttons.forEach((button) => {
 
   });
 });
+
+document.getElementById("hub-now").addEventListener("click", function(){
+    window.open("https://wa.me/6287785597479?text=Halo%20saya%20tertarik%20dengan%20kontrakan%20di%20Wisma%20Damai", "_blank");
+});
