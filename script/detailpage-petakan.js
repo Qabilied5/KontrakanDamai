@@ -6,12 +6,9 @@ const imagesRuangan = {
     "../image/PETAKAN-VIEW.jpg",
     "../image/5a/WhatsApp Image 2025-05-29 at 22.40.54 (2).jpeg",
     "../image/5anew/IMG_1793.jpg",
-    "../image/5anew/IMG_1795.jpg",
     "../image/5anew/IMG_1796.jpg",
     "../image/5anew/IMG_1799.jpg",
-    "../image/5anew/IMG_1800.jpg",
     "../image/5a/WhatsApp Image 2025-05-29 at 23.04.36.jpeg",
-    "../image/5anew/IMG_1803.jpg",
     "../image/5anew/IMG_1806.jpg  ",
     "../image/WhatsApp Image 2025-05-29 at 23.08.27.jpeg",
     "../image/WhatsApp Image 2025-05-29 at 23.40.38.jpeg",
@@ -28,6 +25,7 @@ const imagesRuangan = {
   "../image/5c/WhatsApp Image 2025-06-27 at 11.43.15 (1).jpeg"
   ],
   "5D": [
+    "../image/pintukamarmandi.jpeg"
     // "../image/no-images-images.png",
     // "../image/5d/viewdepan 5d.jpeg",
     // "../image/5d/WhatsApp Image 2025-06-27 at 11.43.13.jpeg",
@@ -38,7 +36,9 @@ const imagesRuangan = {
 };
 
 const videoRuangan = {
-  "5D": "../image/5d/video5d.mp4"
+  "5A": ["../image/5anew/video 5a.mp4"],
+  "5C": ["../image/5c/video 5c.mp4"],
+  "5D": ["../image/5d/video5d.mp4"]
 };
 
 const buttons = document.querySelectorAll(".filter-button button");
