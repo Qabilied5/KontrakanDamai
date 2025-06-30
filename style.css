@@ -1,110 +1,106 @@
-:root {
-  --primary-color: #222222;
-  --font-main: 'Raleway', sans-serif;
+@font-face {
+    font-family: 'Alo Bold';
+    src: url(font/Aloevera/Aloevera-Bold.otf);
+}
+@font-face {
+    font-family: 'Alo Medium';
+    src: url(font/Aloevera/Aloevera-Medium.otf);
+}
+@font-face {
+    font-family: 'Alo Regular';
+    src: url(font/Aloevera/Aloevera-Regular.otf);
+}
+@font-face {
+    font-family: 'Alo Thin';
+    src: url(font/Aloevera/Aloevera-Thin.otf);
 }
 
-@font-face {
-    font-family: 'Raleway Thin';
-    src: url(font/Raleway-Thin.ttf);
-}
-@font-face {
-    font-family: 'Raleway Regular';
-    src: url(font/Raleway-Regular.ttf);
-}
-@font-face {
-    font-family: 'Raleway Medium';
-    src: url(font/Raleway-Medium.ttf);
-}
-@font-face {
-    font-family: 'Raleway Heavy';
-    src: url(font/Raleway-Bold.ttf);
-}
-
-h1, h2, h3, h4, h5{
+*{
     margin: 0;
-    font-family: 'Raleway Regular';
+    padding: 0;
+    font-family: 'Alo Regular', sans-serif;
     -webkit-text-fill-color: white;
 }
 
-button{
-    font-family: 'Raleway Heavy';
+body{
+    background-image: url(image/newLandingPage/Background\ Image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-body {
-  position: relative;
-  margin: 0;
-  height: 100vh;
-  background-image: url('image/pexels-pixabay-358636.jpg');
-  background-size: 100% 100vh;
-  background-repeat: no-repeat;
-  background-position: center;
-  z-index: 0;
+.group-content{
+    background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.7), rgba(0,0,0,0));
 }
 
-body::before {
-    content: "";
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4); /* hitam transparan 40% */
-    z-index: 1;
-}
-
-h1{
-    font-size: 1.5rem;
-}
-
-h2{
-    font-size: 1.25rem;
-}
-
-h3{
-    font-size: 1.125rem;
-}
-
-h4{
-    font-size: 1rem;
-}
-
-h5{
-    font-size: 0.875rem;
-}
-
-/* --------------- */
-.screen{
-    padding: 2rem;
-    position: relative;
-    z-index: 2;
-    height: 100vh;
+.content{
+    text-align: start;
+    box-sizing: border-box;
+    height: 85vh;
+    padding: 40px 60px 40px 40px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    align-items: center;
     justify-content: center;
-    box-sizing: border-box;
-    h1{
-        text-align: center;
-        letter-spacing: 0.3rem;
-        font-size: 2rem;
-        font-family: 'Raleway Heavy';
-    }
-    
-    p{
-        -webkit-text-fill-color: rgb(208, 208, 208);
-        font-family: 'Raleway Regular';
-        text-align: center;
-    }
-    
-    button{
-        letter-spacing: 0.1rem;
-        -webkit-text-fill-color: white;
-        background-color: rgb(29, 55, 110);
-        border: none;
-        height: 2.3rem;
-        width: 12rem;
-        border-radius: 0.3rem;
-    }
 }
 
-.screen button:active {
+.content h1{
+    font-size: 2.6rem;
+    font-family: 'Alo Bold';
+}
+.content p{
+    font-size: 1.1rem;
+    font-family: 'Alo Thin';
+    -webkit-text-fill-color: #cccccc;
+}
+
+.content2{
+    padding-bottom: 3rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+}
+
+button{
+    height: 2.2rem;
+    width: 70vw;
+    background-color: white;
+    border: none;
+    outline: 2px solid rgb(255, 255, 255);  
+    outline-offset: 2px;       
+    border-radius: 1rem;
+    
+    font-size: 1.1rem;
+    font-family: 'Alo Bold';
+    -webkit-text-fill-color: black;
+}
+
+button:active {
     transform: scale(1.1);
+    transition: transform 0.1s ease-out;
+}
+
+@media screen and (min-width: 441px) {
+    body{
+        background-image: url(image/newLandingPage/secondPicture.png);
+    }
+
+    .content{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30vh;
+        height: 50vh;
+    }
+    
+    .content2{
+        height: 50vh;
+        padding-bottom: 30vh;
+    }
+
+    button{
+        width: 30vh;
+    }
 }

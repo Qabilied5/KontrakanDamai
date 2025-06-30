@@ -71,13 +71,17 @@
         height: 2.5rem;
         width: 5rem;
         -webkit-text-fill-color: white;
-        background-color: #A2A2A2;
+        background-color: #6a6a6a;
         border: none;
     }
 }
 
 .filter-button button.active{
-    background-color: #303030;
+    background-color: rgb(47, 47, 47);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    outline: 3px solid rgb(34, 34, 34);
+    outline-offset: 2px;
+    
 }
 
 .gambar-detail-ruangan{
@@ -115,28 +119,30 @@
     height: 5vh;
     width: 35vh;
     -webkit-text-fill-color: white;
-    background-color: rgb(45, 73, 132);
+    background-color: rgb(47, 47, 47);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    outline: 3px solid rgb(34, 34, 34);
+    outline-offset: 2px;
 }
 
 @media screen and (max-width: 440px) {
 
-    .page-title{
-        margin-top: 0.5rem;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
+.page-title{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
         
-        h2{
-            -webkit-text-fill-color: #303030;
-            font-family: 'Nexa Heavy';
-        }
+    h2{
+        -webkit-text-fill-color: #303030;
+        font-family: 'Nexa Heavy';
     }
+}
     
-    .detail-desc{
+.detail-desc{
         font-family: 'Nexa Heavy';
         -webkit-text-fill-color: rgb(75, 75, 75);
-    }
+}
     
 .detail-description{
     padding: 1rem 2rem;
@@ -235,8 +241,10 @@
     height: 5vh;
     width: 35vh;
     -webkit-text-fill-color: white;
-    background-color: rgb(45, 73, 132);
+    background-color: rgb(47, 47, 47);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    outline: 3px solid rgb(34, 34, 34);
+    outline-offset: 2px;
 }
 
 }
