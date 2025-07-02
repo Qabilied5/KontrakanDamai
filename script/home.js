@@ -1,16 +1,16 @@
 const kontrakanData = [
     {
-    title: "| PETAKAN BULANAN 4 PINTU",
+    title: "Petakan Bulanan 4 Pintu",
     type: "petakan",
     image: "../image/PETAKAN-VIEW.jpg"
   },
   {
-    title: "| SEWA RUMAH TAHUNAN",
+    title: "Sewa Rumah Tahunan",
     type: "rumah",
     image: "../image/rumah-satuan/rumah-satuan-front-view.jpg"
   },
   {
-    title: "| PARKIRAN PETAKAN",
+    title: "Parkiran Petakan",
     type: "parkiran",
     image: "../image/pexels-pixabay-358636.jpg"
   }
@@ -30,7 +30,7 @@ kontrakanData.forEach(typeData => {
             <div class="sub-image">
                 <img class="sub-image-control" src="${typeData.image}" alt="${typeData.title}">
             </div>
-            <button id="detail-button">LIHAT ISI</button>`;
+            <button id="detail-button">Lihat Isi</button>`;
             
         const imgBtn = card.querySelector("#detail-button");
             
@@ -55,3 +55,16 @@ kontrakanData.forEach(typeData => {
     });
     container.appendChild(card);
 });
+
+const dateElement = document.getElementById("current-date");
+
+const now = new Date();
+
+const days = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
+
+const months = [
+    "Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
+
+const formattedDate = `${days[now.getDay()]}, ${now.getDate()} ${months[now.getMonth()]}`;
+
+dateElement.textContent = formattedDate;

@@ -150,6 +150,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     outline: 3px solid rgb(34, 34, 34);
     outline-offset: 2px;
+    letter-spacing: 1.5px;
 }
 
 }

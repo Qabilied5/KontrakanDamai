@@ -4,36 +4,36 @@
 }
 
 @font-face {
-    font-family: 'Raleway Thin';
-    src: url(../font/Raleway-Thin.ttf);
+    font-family: 'Alo Bold';
+    src: url(../font/Aloevera/Aloevera-Bold.otf);
 }
 @font-face {
-    font-family: 'Raleway Regular';
-    src: url(../font/Raleway-Regular.ttf);
+    font-family: 'Alo Medium';
+    src: url(../font/Aloevera/Aloevera-Medium.otf);
 }
 @font-face {
-    font-family: 'Raleway Medium';
-    src: url(../font/Raleway-Medium.ttf);
+    font-family: 'Alo Regular';
+    src: url(../font/Aloevera/Aloevera-Regular.otf);
 }
 @font-face {
-    font-family: 'Raleway Heavy';
-    src: url(../font/Raleway-Bold.ttf);
+    font-family: 'Alo Thin';
+    src: url(../font/Aloevera/Aloevera-Thin.otf);
 }
 
 body{
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     padding: 0;
     margin: 0;
 }
 
 h1, h2, h3, h4, h5{
     margin: 0;
-    font-family: 'Raleway Regular';
+    font-family: 'Alo Regular';
     -webkit-text-fill-color: rgb(255, 255, 255);
 }
 
 button{
-    font-family: 'Raleway Heavy';
+    font-family: 'Alo Regular';
 }
 
 h1{
